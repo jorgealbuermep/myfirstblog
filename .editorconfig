@@ -1,0 +1,26 @@
+[*]
+charset = utf-8
+end_of_line = cr
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+
+# PHP-Files, Composer.json, MD-Files
+[{*.php,composer.json,*.md}]
+indent_size = 4
+end_of_line = cr
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+
+# HTML-Files LESS-Files SASS-Files CSS-Files JS-Files JSON-Files
+[{*.html,*.less,*.sass,*.css,*.js,*.json}]
+indent_size = 4
+
+[*.vue]
+
+
+# Gitlab-CI, Travis-CI
+[*.yml]
+indent_style = space
+indent_size = 4
